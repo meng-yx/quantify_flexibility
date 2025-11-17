@@ -1,0 +1,12 @@
+name: prody
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - biopython
+  - mdanalysis
+  - matplotlib
+  - ipykernel
+  - rdkit
+prefix: /opt/miniconda3/envs/prody
